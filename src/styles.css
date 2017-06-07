@@ -1,5 +1,127 @@
-h1 {
-  color: #369;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 250%;
+html {box-sizing: border-box}
+*, *:before, *:after {box-sizing: border-box}
+
+body {
+  margin: 0;
+}
+
+.navlist {
+ list-style-type: none;
+ display: flex;
+ margin: 0 50px 0px 0px;
+ justify-content: flex-end;
+}
+
+.navListItem {
+  margin: 0 14px;
+}
+
+#nav {
+ width: 100%;
+ border-bottom: 1px solid rgba(125,125,125,0.2);
+}
+#quoteContainer {
+ display: flex;
+ background-color: #114488 ;
+ padding: 30px 15px;
+ align-items: center;
+}
+
+#quoteSection {
+  width: 75%;
+  margin:30px auto;
+}
+
+#quoteIcon {
+ color: white;
+ font-size: 40px;
+ margin: 0px 25px 0px 10px;
+}
+
+#quoteText {
+ color: white;
+ margin: 0;
+}
+#header {
+  padding: 100px 0px;
+  background: url(http://filefac.com/wp-content/uploads/2016/10/parallax2.png);
+  background-position: 0px -280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#headerText {
+  color: white;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  font-family: Open Sans, Helvetica, Arial;
+  font-weight: 700;
+  margin: 10px;
+}
+
+#headerButton {
+  background: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  color: white;
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  margin: 0px auto;
+  cursor: pointer;
+}
+
+.hRule {
+  width: 75%;
+  height: 0px;
+  border-bottom: 1px solid grey;
+  margin-top: 15px;
+}
+#tableSection {
+ display: flex;
+ width: 75%;
+ margin: 0px auto;
+ justify-content: space-between;
+}
+
+.table {
+ margin: 0px 15px;
+ display: flex;
+ flex-direction: column;
+}
+
+.tableTitle {
+ text-transform: uppercase;
+ cursor: pointer;
+ font-size: 18px;
+ margin: 0;
+}
+
+.tableText {
+ font-size: 15px;
+ color: #363636 ;
+}
+
+.tableImage {
+ margin: 0;
+}
+
+.tableLink {
+ color: white;
+ text-decoration: none;
+ background-color: #f9a322 ;
+ padding: 10px;
+ text-align: center;
+ border-radius: 3px;
+ margin: 0;
+ position: relative;
+ top: -10px;
+ cursor: pointer;
+}
+
+.table a:hover {
+ background-color: black;
 }
