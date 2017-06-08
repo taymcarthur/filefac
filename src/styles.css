@@ -125,3 +125,45 @@ body {
 .table a:hover {
  background-color: black;
 }
+
+#selectTitle {
+ font-size: 30px;
+ text-align: center;
+}
+
+#selectText {
+ font-size: 15px;
+ color: #363636 ;
+ text-align: center;
+ line-height: 25px;
+}
+
+#selectForm {
+ display: flex;
+ justify-content: space-around;
+ width: 80%;
+ margin: auto;
+ 
+}
+
+#selectState {
+ margin: 0px 10px;
+ position: relative;
+ top: 10px;
+}
+
+#selectButton {
+ background-color: #f9a322 ;
+ border: none;
+ outline: none;
+ color: white;
+ font-size: 15px;
+ padding: 10px 150px;
+ border-radius: 3px;
+ margin: 0px 10px;
+}
+
+#selectSection {
+ width: 50%;
+ margin: 0px auto;
+}

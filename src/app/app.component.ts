@@ -8,7 +8,8 @@ import { Component } from '@angular/core';
   <header></header>
   <quote></quote><br />
   <table></table><br />
-  `,
+  <selectState></selectState><br />
+  <footer></footer>`
 })
 
 export class AppComponent  {}
